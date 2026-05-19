@@ -1,0 +1,381 @@
+/* Body */
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  
+  overflow-x: hidden;
+
+}
+
+/* Navbar */
+.navbar {
+  background-color: rgb(22, 21, 21) !important;
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-link {
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Buttons */
+.navbar .btn-warning {
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.navbar .btn-warning:hover {
+  background-color: black;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+
+/* Menu Heading */
+
+
+/* Cards */
+.card {
+
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Card Image */
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+/* Footer */
+footer {
+  background-color: rgb(22, 21, 21) !important;
+ padding-top: 50px;
+}
+
+footer h3 {
+  color: #ffc107;
+}
+
+footer a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: #ffc107;
+}
+
+/* Icons spacing */
+footer i {
+  margin-right: 8px;
+  
+}
+footer .img{
+  font-size: 40px;
+  color:cyan;
+}
+    
+
+button{
+  background-color: rgb(160, 90, 10);
+    color: white;
+    border: none;
+}
+.h1{
+  font-size: 60px!important;
+  font-style:italic;
+}
+.p{
+  font-weight: 800!important;
+}
+.hero-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+}
+
+/* 🔥 Background + Blur */
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background-image: url('https://www.tastingtable.com/img/gallery/the-best-all-you-can-eat-buffet-in-every-state/intro-1766620452.jpg');
+  background-size: cover;
+  background-position: center;
+
+  filter: blur(2px);   /* ✅ BLUR */
+  transform: scale(1.1); /* ✅ edges cut na ho */
+
+  z-index: 1;
+}
+
+/* Dark Overlay */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+/* Content (Text + Buttons) */
+.hero-content {
+  position: relative;
+  z-index: 3;   /* ✅ sab se upar */
+  text-align: center;
+}
+.cards-about-section{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+      background-color: rgb(250, 248, 246);
+     
+      text-align: center;
+      padding: 30px 0;
+      color: black;
+       
+         
+   
+}
+ .hero-section .btn-warning {
+  transition: 0.3s;
+
+}
+
+ .hero-section .btn-warning:hover {
+  background-color: black;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+.container.btn-warning {
+  transition: 0.3s;
+
+}
+
+ .container .btn-warning:hover {
+  background-color: black;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+  
+}
+ .signature.btn-warning {
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+ .signature .btn-warning:hover {
+  background-color: black;
+  color: #ffc107;
+  border: 1px solid #ffc107;
+}
+.cards-about{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 30px;
+     font-style: italic;
+     text-align: center;
+     background-color:rgb(7, 7, 7);
+     padding: 20px 0;
+   
+}
+.card-about .fa-solid {
+    font-size: 50px;
+  color: rgb(151, 110, 63);
+  padding: 20px 0;
+
+}
+
+.cards-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+      background-color: rgb(8, 8, 8);
+      margin: 40px 0;
+    
+}
+.card{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 30px;
+     font-style: italic;
+   
+}
+.card img{
+    width: 50px;
+
+}
+
+
+.cards-open{
+       width: 100%;
+          background-color: rgb(10, 10, 10);
+          color: white;
+}
+footer {
+ color: white;
+ background-color: black;
+ font-size: 23px;
+
+}
+.t img{
+  width: 20px;
+}
+.footer img{
+  width: 50px;
+  
+
+}
+
+.box{
+  padding: 56px;
+}
+
+hr{
+  
+  border: none;
+  height: 2px;
+  background-color: rgb(250, 247, 243);
+}
+
+.t .fa-solid{
+   font-size: 35px;
+  margin-right: 20px;
+  color: #14d3ec;
+}
+.t .fa-brands{
+  font-size: 35px;
+  margin-right: 20px;
+  color: #14d3ec;
+ 
+}
+.fas{
+  font-size:35px;
+   color: #14d3ec;
+}
+
+ul{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+ul li a{
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-size: 23px;
+
+}
+.card-about {
+  width: 100%;
+  max-width: 18rem;
+}
+.booking{
+   background-color: black;
+   color: white;
+}
+.manu button {
+  font-size: 20px;
+}
+.p
+{
+  font-size: 14px;
+  font-weight: bolder!important;
+
+}
+.ul li a{
+  font-size: 19px!important;
+}
+a{
+  list-style: none;
+  text-decoration: none;
+}
+/* About page ke body par ye class lagi hui hai:
+   <body class="about bg-black">
+*/
+
+
+body.about {
+    background-color: rgb(95, 52, 3);
+    color: white;
+    overflow-x: hidden;
+}
+
+.view{
+  color: white;
+     background-color: black;
+}
+.gallery{
+    color: white;
+     background-color: rgb(95, 52, 3);
+    
+}
+
+.gallery .card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery .card{
+  transition: 0.5s;
+}
+
+.gallery .card:hover {
+  transform: scale(1.1);
+}
+
+/* overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  transition: 0.5s;
+
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.gallery .card:hover .overlay {
+  opacity: 1;
+}
+.reservations{
+     background-color: rgb(95, 52, 3);
+   color: white;
+}

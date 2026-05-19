@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="booking">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+
+            <a class="navbar-brand fs-1 text-white" href="#">Okra</a>
+
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="manu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="reservation.html">Reservations</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="galllery.html">Gallery</a></li>
+                </ul>
+
+                <div>
+                    <a href="tel:03001234567" class="btn btn-warning me-2">📞 Call Now</a>
+                    <a href="manu.html" class="btn btn-warning">Order Online</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container m-5">
+
+        <h1 class="text-center m-2">Book a Table</h1>
+        <p class="text-center">Reserve your table at Okra Restaura</p>
+<form>
+        <div class="mb-3">
+
+            <input type="text" placeholder="your name" class="form-control" pattern="[A-Za-z]+"
+                title="Only letters allowed" required>
+
+        </div>
+
+        <div class="mb-3">
+
+            <input type="email" placeholder="email" class="form-control"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Valid email required" required>
+        </div>
+        <div class="mb-3">
+
+            <input type="tel" placeholder="phone number" class="form-control" pattern="03\d{2}-\d{7}"
+                title="03xx-xxxxxxx format" required>
+
+        </div>
+        <div class="mb-3">
+
+            <input type="password" placeholder="password" class="form-control">
+        </div>
+        <div class="mb-3">
+
+            <input type="date" placeholder="mm/dd/yyyy" class="form-control" pattern="\d{4}-\d{2}-\d{2}"
+                title="Format: YYYY-MM-DD" required>
+        </div>
+        <div class="mb-3">
+
+            <input type="time" placeholder="--:-- --" class="form-control" pattern="([01]\d|2[0-3]):[0-5]\d"
+                title="24-hour time format HH:MM" required>
+
+
+        </div>
+        <button class="w-100 rounded-3 p-2 text-bg-warning">Conform Booking</button>
+        </form>
+    </div>
+     <footer>
+        <div class=" container-fluid  text-white  fs-6">
+            <div class="row mx-2 px-5 text-right">
+
+                <!-- Column 1 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3 justify-content-center ">
+                    <div class="t text-white m-2">
+                        <h3>Contact Us</h3>
+                        
+                        <i class="fa-solid fa-phone"></i> +92 300 123456
+                        <br>
+                        <!-- <i class="fa-brands fa-instagram"></i> info@okra.com.pk
+                        <br> -->
+                        <a href="https://www.facebook.com/p/Okra-100064698610693/" style="color:rgb(238, 231, 231); "
+                            target="_blank">
+                            <i class="fa-brands fa-square-facebook"></i>facebook
+                            <br>
+                        </a>
+                        <a href="https://www.google.com/maps?q=Okra+Restaurant+Karachi"
+                            style="color:rgb(238, 231, 231); " target="_blank">
+                            <i class="fas fa-map-marker-alt"></i> Location
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3  justify-content-center">
+                    <h3>Quick Links</h3>
+                    <ul class="ul">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="manu.html">Menu</a></li>
+                        <li><a href="reservation.html">Reservations</a></li>
+                        <li><a href="galllery.html">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3  justify-content-center">
+                    <h3>Follow us</h3>
+                    
+                    <a href="https://www.facebook.com/100064698610693/mentions/" target="_blank" class="img"><i
+                            class="fa-brands fa-facebook"></i></a>
+
+                    <a href="https://www.instagram.com/testkitchenbyokra/?hl=en " class="img"><i
+                            class="fa-brands fa-instagram "></i></a>
+                    <a href="https://x.com/ElinMBurns/status/1155825258781433856" class="img"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="p col-12 col-sm-12 col-md-6 col-lg-6 col-xl-3 col-xxl-3  justify-content-center text-white  ">
+                    <h3>Opening Hours</h3>
+                    <p >Monday - Thursday: 7:00 PM - 11:00 PM</p>
+                    <p>Friday - Sunday: 7:00 PM - 12:00 AM</p>
+
+                </div>
+
+            </div>
+        </div>
+        <hr>
+        <p class="text-white text-center pt-3 pb-3 ">© 2024 Okra Restaurant | Designed by Your Company</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
