@@ -296,9 +296,64 @@ ul li a{
   width: 100%;
   max-width: 18rem;
 }
-.booking{
-   background-color: black;
-   color: white;
+
+/* ===== BOOKING FORM SECTION ===== */
+
+.booking {
+    background-color: black;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Container spacing fix */
+.booking .container {
+    max-width: 600px;
+}
+
+/* Heading style */
+.booking h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph */
+.booking p {
+    margin-bottom: 30px;
+    color: white;
+}
+
+/* Input fields styling */
+.booking .form-control {
+    background-color:white;
+    border: 1px solid #33333394;
+    color: rgb(67, 64, 64);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/* Focus effect */
+.booking .form-control:focus {
+    border-color: #ffc107;
+    box-shadow: none;
+}
+
+/* Button style */
+.booking button {
+    background-color: #ffc107;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.booking button:hover {
+    background-color: #e0a800;
+}
+
+/* Mobile responsive */
+@media (max-width: 576px) {
+    .booking h1 {
+        font-size: 28px;
+    }
 }
 .manu button {
   font-size: 20px;
@@ -330,6 +385,21 @@ body.about {
 .view{
   color: white;
      background-color: black;
+}
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.gallery .row {
+    margin-left: 0px !important;
+    margin-right: 50px !important;
+}
+
+.container, .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .gallery{
     color: white;
