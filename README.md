@@ -89,5 +89,6 @@ You can add your GitHub Pages link here:
 https://malaikashabnum.github.io/okra-restaurant/
 screenshort
 ![Project Screenshot](img/screenshot.png)
+
 👩‍💻 Author
 Developed by: Malaika Shabnum
