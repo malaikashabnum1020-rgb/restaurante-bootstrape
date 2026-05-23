@@ -87,9 +87,7 @@ Learn how to create responsive layouts
 🔗 Live Preview
 You can add your GitHub Pages link here:
 https://malaikashabnum.github.io/okra-restaurant/
-📸 Screenshots
-## 📸 Screenshots
-
+screenshort
 ![Project Screenshot](img/screenshot.png)
 👩‍💻 Author
 Developed by: Malaika Shabnum
